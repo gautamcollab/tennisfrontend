@@ -25,7 +25,12 @@ code {
   cursor: pointer;
 }
 
+.create-char{
+  width: 100px;
+}
+
 .game-table {
+  margin-top: 100px;
   height: 200px; 
   width: 50%;
 
@@ -38,13 +43,15 @@ code {
 .player-container{
   display: flex; 
   flex-wrap: wrap; 
+
 }
 
 .player-card {
   background: #FF7A59;
-  border: 10px solid gold;
-  width: 150px;
-  height: 150px;
+  border-image: url('https://wallpaperaccess.com/full/1828795.jpg') 35px;
+
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -57,7 +64,9 @@ code {
   cursor: pointer;
 }
 
-.player-lobb{
-  font-size: 100px;
+.game-table{
+  border: 1px solid black;
+  height: 350px; 
+  width: 150px;
 }
 
