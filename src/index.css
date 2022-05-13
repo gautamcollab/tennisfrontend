@@ -7,7 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.character {
+  top: 0;
+  border: 1px solid black; 
+  width: 200px; 
+  height: 200px; 
+  overflow: scroll;
+}
+
+.character:hover{
+  cursor: pointer;
+}
+
+.game-table {
+  height: 200px; 
+  width: 50%;
+
+}
+
+.img {
+  object-fit: contain 
+}
+
+.player-container{
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.player-card {
+  background: #FF7A59;
+  border: 10px solid gold;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: .2%;
+}
+
+
+.player-card:hover {
+  cursor: pointer;
+}
+
+.player-lobb{
+  font-size: 100px;
+}
+
